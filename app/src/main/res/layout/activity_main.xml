@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBC8"
+    android:backgroundTint="#F6F0B5"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnASU"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="10dp"
+        android:text="Asuncion"
+        app:layout_constraintBottom_toTopOf="@+id/btnCDE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnLMP"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="10dp"
+        android:text="loma plata"
+        app:layout_constraintBottom_toTopOf="@+id/btnVRC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnENC" />
+
+    <Button
+        android:id="@+id/btnENC"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="10dp"
+        android:text="Encarnacion"
+        app:layout_constraintBottom_toTopOf="@+id/btnLMP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCDE" />
+
+    <Button
+        android:id="@+id/btnVRC"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="127dp"
+        android:text="Villa Rica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLMP" />
+
+    <Button
+        android:id="@+id/btnCDE"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ciudad del Este"
+        app:layout_constraintBottom_toTopOf="@+id/btnENC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnASU" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elija una ciudad:"
+        android:textColor="#8BC34A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LA TEMPERATURA"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
